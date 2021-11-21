@@ -1,0 +1,87 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    color: #fff !important;
+}
+
+#home {
+    background: url('/assets/imgs/sand-mountain.jpeg') no-repeat 50% 50%;
+    display: table;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.landing-text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.landing-text h1 {
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    font-size: 900%;
+    line-height: .9;
+}
+.landing-text h3 {
+    font-size: 260%;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.landing-text .btn-default {
+    background-color: #fff;
+    color: #36342f;
+    font-size: 160%;
+}
+.landing-text .btn-default:hover {
+    color: #fff;
+    background-color: #36342f;
+}
+
+p {
+    color: #000 !important;
+    padding: 3% !important;
+    font-size: 150% !important;
+    font-weight: 400 !important;
+}
+
+/* Tablet sizing */
+@media (max-width: 768px) {
+    .landing-text h1 {
+        font-size: 350%;
+    }
+    .landing-text h3 {
+        font-size: 150%;
+    }
+    .btn btn-default {
+        font-size: 120%;
+    }
+    p {
+        font-size: 120%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
