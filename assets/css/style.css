@@ -8,7 +8,7 @@ html, body {
 }
 
 #home {
-    background: url('/assets/imgs/sand-mountain.jpeg') no-repeat 50% 50%;
+    background: url('assets/imgs/sand-mountain.jpeg') no-repeat 50% 50%;
     display: table;
     height: 100%;
     width: 100%;
